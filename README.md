@@ -16,8 +16,11 @@ As large language models (LLMs) become more sophisticated, identifying AI-genera
 
 ## Implementation Highlights
 **Model Architecture**: Uses the log probability function of transformer models to classify text as human-written or AI-generated.
+
 **Perturbation Analysis**: Introduces controlled modifications to text and analyzes discrepancies in log probabilities.
+
 **ROC and Precision-Recall Evaluation**: Assesses model performance across datasets with detailed metrics.
+
 **Hypothesis Modification**: Explores alternative approaches to enhance the accuracy of human-written text classification.
 ## Results
 The experiments reveal the potential and limitations of Detect-GPT, showing its strengths in detecting AI-generated text while identifying areas for improvement, such as hyperparameter tuning and model scope.
