@@ -6,9 +6,14 @@ As large language models (LLMs) become more sophisticated, identifying AI-genera
 
 ## Key Features
 **Zero-Shot Detection**: No training data required for text classification.
+
+
 **Log Probability Curvature**: Identifies AI-generated text by analyzing the log probability of perturbed text samples.
+
 **Transformer-Based Models**: Utilizes models like GPT-2 and T5-small for source text generation and perturbations.
+
 **Comprehensive Experiments**: Evaluates performance on datasets such as Multi-News, XSum, PubMedQA, WMT16, and SQuAD.
+
 ## Implementation Highlights
 **Model Architecture**: Uses the log probability function of transformer models to classify text as human-written or AI-generated.
 **Perturbation Analysis**: Introduces controlled modifications to text and analyzes discrepancies in log probabilities.
